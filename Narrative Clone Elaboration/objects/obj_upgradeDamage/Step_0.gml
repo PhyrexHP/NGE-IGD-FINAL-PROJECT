@@ -3,7 +3,7 @@
 if (mouse_x < (x + 175) and mouse_x > (x - 175)) and (mouse_y < (y + 175) and mouse_y > (y - 175)){
 	sprite_index = spr_upgradeDamageHighlighted;
 	if keyboard_check_pressed(ord("E")){
-		obj_Revolver.damage += 2;
+		obj_weapon.damage += 2;
 		obj_GameController.upgradeMenuOn = 0;
 		obj_GameController.upgrade1Created = 0;
 		obj_GameController.upgrade2Created = 0;

@@ -3,7 +3,7 @@
 if (mouse_x < (x + 175) and mouse_x > (x - 175)) and (mouse_y < (y + 175) and mouse_y > (y - 175)){
 	sprite_index = spr_upgradeChainHighlighted;
 	if keyboard_check_pressed(ord("E")){
-		obj_Revolver.chains += 1;
+		obj_weapon.chains += 1;
 		obj_GameController.upgradeMenuOn = 0;
 		obj_GameController.upgrade1Created = 0;
 		obj_GameController.upgrade2Created = 0;

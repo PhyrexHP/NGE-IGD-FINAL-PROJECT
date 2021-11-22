@@ -57,7 +57,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		hspeed = playerSpeed;
 	}
 
-if obj_Revolver.equipped = 1{
+if obj_weapon.equipped = 1{
 
 	if keyboard_check_pressed(vk_space){
 		cursor_sprite = spr_cursorWarp;

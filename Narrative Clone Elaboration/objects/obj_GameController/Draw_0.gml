@@ -16,7 +16,7 @@ if cultistsSpawning = 1{
 }
 
 if upgradeMenuOn = 1{
-	if obj_Revolver.explode = 0{
+	if obj_weapon.explode = 0{
 		view_upgrade_menu(irandom_range(1, 3));
 	}
 	else{

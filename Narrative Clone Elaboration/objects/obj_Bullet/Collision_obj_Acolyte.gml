@@ -3,7 +3,7 @@
 if (other.sprite_index = spr_AcolyteIdle or other.sprite_index = spr_AcolyteDamaged or other.sprite_index = spr_AcolyteRun) and other.bulletHit = 0{
 	
 	if sprite_index = spr_RevolverBullet{
-		other.healthPoints = other.healthPoints - obj_Revolver.damage;
+		other.healthPoints = other.healthPoints - obj_weapon.damage;
 		other.sprite_index = spr_AcolyteDamaged;
 	}
 

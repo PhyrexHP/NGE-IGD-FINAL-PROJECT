@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if healthPoints <= 0{
 	
-	if obj_Revolver.explode = 0{
+	if obj_weapon.explode = 0{
 		sprite_index = spr_AcolyteDead;
 		alive = 0;
 		speed = 0;
@@ -12,7 +12,7 @@ if healthPoints <= 0{
 		}
 	}
 	
-	if obj_Revolver.explode = 1{
+	if obj_weapon.explode = 1{
 		instance_create_depth(x, y, (depth+1), obj_explosion);
 		if pointAdded = 0{
 			obj_GameController.cultistsKilled += 1;

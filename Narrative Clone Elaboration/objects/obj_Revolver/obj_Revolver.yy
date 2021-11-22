@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_weapon",
+    "path": "objects/obj_weapon/obj_weapon.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
