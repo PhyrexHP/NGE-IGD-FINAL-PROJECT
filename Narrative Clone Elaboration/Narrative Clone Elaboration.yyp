@@ -22,6 +22,7 @@
     {"id":{"name":"spr_AcolyteRun","path":"sprites/spr_AcolyteRun/spr_AcolyteRun.yy",},"order":21,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":8,},
     {"id":{"name":"spr_stoneMed","path":"sprites/spr_stoneMed/spr_stoneMed.yy",},"order":6,},
+    {"id":{"name":"obj_peepee","path":"objects/obj_peepee/obj_peepee.yy",},"order":21,},
     {"id":{"name":"obj_upgradeExplode","path":"objects/obj_upgradeExplode/obj_upgradeExplode.yy",},"order":18,},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":14,},
     {"id":{"name":"spr_PlayerWalkDown","path":"sprites/spr_PlayerWalkDown/spr_PlayerWalkDown.yy",},"order":3,},
@@ -118,7 +119,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.577",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Narrative Clone Elaboration",
