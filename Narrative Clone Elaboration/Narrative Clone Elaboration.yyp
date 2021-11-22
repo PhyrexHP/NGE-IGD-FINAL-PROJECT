@@ -5,7 +5,7 @@
     {"id":{"name":"spr_upgradeChain","path":"sprites/spr_upgradeChain/spr_upgradeChain.yy",},"order":29,},
     {"id":{"name":"snd_menuStart","path":"sounds/snd_menuStart/snd_menuStart.yy",},"order":0,},
     {"id":{"name":"spr_upgradeProj","path":"sprites/spr_upgradeProj/spr_upgradeProj.yy",},"order":30,},
-    {"id":{"name":"obj_RevolverBullet","path":"objects/obj_RevolverBullet/obj_RevolverBullet.yy",},"order":13,},
+    {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},"order":13,},
     {"id":{"name":"spr_upgradeProjHighlighted","path":"sprites/spr_upgradeProjHighlighted/spr_upgradeProjHighlighted.yy",},"order":36,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":15,},
     {"id":{"name":"obj_Acolyte","path":"objects/obj_Acolyte/obj_Acolyte.yy",},"order":14,},

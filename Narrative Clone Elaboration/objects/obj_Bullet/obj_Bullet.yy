@@ -37,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_RevolverBullet",
+  "name": "obj_Bullet",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -28,7 +28,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		if mouse_check_button_pressed(mb_left){
 			audio_play_sound(snd_loudCrunch, 2, false);
 			for (i = 0 ; i < projectiles; i += 1){
-				bullet = instance_create_depth((x), (y-10), -100, obj_RevolverBullet);
+				bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
 				with(bullet){
 					xdirection = mouse_x + irandom_range(25, -25);
 					ydirection = mouse_y + irandom_range(25, -25);
