@@ -72,6 +72,13 @@ if obj_Revolver.equipped = 1{
 	
 }
 
+if(place_meeting(x, y + vspeed, obj_Collidable)){
+	vspeed = 0
+} 
+if(place_meeting(x + hspeed, y, obj_Collidable)){
+	hspeed = 0
+}
+
 hspeed = hspeed * 0.8;
 vspeed = vspeed * 0.8;
 	
