@@ -30,8 +30,8 @@ if obj_GameController.upgradeMenuOn = 0{
 			for (i = 0 ; i < projectiles; i += 1){
 				bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
 				with(bullet){
-					xdirection = mouse_x + irandom_range(25, -25);
-					ydirection = mouse_y + irandom_range(25, -25);
+					xdirection = mouse_x + irandom_range(15, -15);
+					ydirection = mouse_y + irandom_range(15, -15);
 					direction = point_direction(x, y, xdirection, ydirection);
 					image_angle = point_direction(x, y, xdirection, ydirection);
 					speed = 30;
