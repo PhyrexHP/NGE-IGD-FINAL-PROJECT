@@ -30,6 +30,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2464.0,"y":2016.0,"resourceVersion":"1.0","name":"inst_33A11ABF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Revolver","path":"objects/obj_Revolver/obj_Revolver.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2528.0,"y":2144.0,"resourceVersion":"1.0","name":"inst_21576B71","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2048.0,"y":2368.0,"resourceVersion":"1.0","name":"inst_2B3E37EA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_packspawner","path":"objects/obj_packspawner/obj_packspawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2720.0,"y":2144.0,"resourceVersion":"1.0","name":"inst_106D45AA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_stoneBig","path":"sprites/spr_stoneBig/spr_stoneBig.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":2592.0,"resourceVersion":"1.0","name":"graphic_197E9432","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -82,6 +83,7 @@
     {"name":"inst_5A5527B1","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},
     {"name":"inst_7C14D46","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},
     {"name":"inst_4CA9708","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},
+    {"name":"inst_106D45AA","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
