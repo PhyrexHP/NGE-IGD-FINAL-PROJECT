@@ -18,4 +18,6 @@ if (other.sprite_index = spr_AcolyteIdle or other.sprite_index = spr_AcolyteDama
 	}
 }
 
+instance_create_depth(x, y, 1, obj_aggrohitbox)
+
 other.bulletHit = 1;

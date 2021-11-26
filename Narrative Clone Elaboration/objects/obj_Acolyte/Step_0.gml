@@ -25,7 +25,7 @@ if healthPoints <= 0{
 if sprite_index = spr_AcolyteDamaged{
 	damageTimer = damageTimer + 1;
 	if damageTimer % 10 = 0{
-		sprite_index = spr_AcolyteIdle;
+		sprite_index = spr_AcolyteRun;
 	}
 }
 
@@ -55,6 +55,13 @@ if aggro = 1 and alive = 1{
 	if growlPlayed = 0{
 		audio_play_sound(snd_cultistGrowl, 1, false);
 		growlPlayed = 1;
+	}
+	
+	if obj_Player.x < x{
+		image_xscale = -1
+	}
+	else{
+		image_xscale = 1
 	}
 }
 
