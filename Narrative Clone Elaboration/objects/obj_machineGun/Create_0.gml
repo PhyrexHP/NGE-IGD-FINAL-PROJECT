@@ -3,4 +3,4 @@ damage = 1
 projectiles = 1
 ammo = 30
 spread = 30
-equipped = 0
+equipped = false

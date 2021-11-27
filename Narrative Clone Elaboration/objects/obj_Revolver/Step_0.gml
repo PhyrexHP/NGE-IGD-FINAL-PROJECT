@@ -5,7 +5,7 @@ if obj_GameController.upgradeMenuOn = 0{
 
 	sprite_index = spr_Revolver;
 
-	if equipped = 1{
+	if equipped {
 	
 		x = (obj_Player.playerXpos);
 		y = (obj_Player.playerYpos) + 10;
