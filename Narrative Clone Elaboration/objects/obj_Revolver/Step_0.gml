@@ -29,9 +29,10 @@ if obj_GameController.upgradeMenuOn = 0{
 			audio_play_sound(snd_loudCrunch, 2, false);
 			for (i = 0 ; i < projectiles; i += 1){
 				bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
+				bullet.spread = spread;
 				with(bullet){
-					xdirection = mouse_x + irandom_range(15, -15);
-					ydirection = mouse_y + irandom_range(15, -15);
+					xdirection = mouse_x + irandom_range(spread, -spread);
+					ydirection = mouse_y + irandom_range(spread, -spread);
 					direction = point_direction(x, y, xdirection, ydirection);
 					image_angle = point_direction(x, y, xdirection, ydirection);
 					speed = 30;

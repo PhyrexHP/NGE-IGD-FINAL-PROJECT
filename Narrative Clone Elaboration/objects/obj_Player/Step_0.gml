@@ -16,6 +16,7 @@ if obj_GameController.upgradeMenuOn = 0{
 
 		camera_set_view_pos(view_camera[0], cameraX, cameraY);
 	}
+	
 	if keyboard_check(ord("W")) or keyboard_check(ord("A")) or keyboard_check(ord("S")) or keyboard_check(ord("D")){
 	}
 	else if sprite_index = spr_PlayerWalkUp{
