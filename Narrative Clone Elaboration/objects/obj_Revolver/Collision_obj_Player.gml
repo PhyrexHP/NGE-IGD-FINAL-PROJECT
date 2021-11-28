@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !equipped {
+if (!equipped  && !obj_Player.gameStarted){ 
 	sprite_index = spr_RevolverHighlight
-	if keyboard_check_pressed(ord("E")){
-		equipped = true;
+	if keyboard_check_pressed(ord("E")) {
+		obj_Player.equipped = self;
 		obj_GameController.cultistsSpawning = 1;
-		obj_Player.revolverAcquired = 1;
+		obj_Player.gameStarted = true;
 		window_set_cursor(cr_none);
 		cursor_sprite = spr_cursor;
 	}

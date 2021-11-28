@@ -2,19 +2,23 @@
 // You can write your code in this editor
 if obj_GameController.upgradeMenuOn = 0{
 
-	if revolverAcquired = 0{
-	camera_set_view_pos(view_camera[0], x - (cameraWidth/2), y - (cameraHeight/2));
-	}
-
-	if revolverAcquired = 1{
+	if gameStarted {
 		playerXpos = x;
 		playerYpos = y;
 		relMouseX = mouse_x - playerXpos
 		relMouseY = mouse_y - playerYpos
 		cameraX = (playerXpos - cameraWidth/2) + (relMouseX/4);
 		cameraY = (playerYpos - cameraHeight/2) + (relMouseY/4);
-
+		
+		if(mouse_check_button_pressed(mb_left)){
+			with(equipped){
+				fire()
+			}
+		}
+		
 		camera_set_view_pos(view_camera[0], cameraX, cameraY);
+	} else {
+	camera_set_view_pos(view_camera[0], x - (cameraWidth/2), y - (cameraHeight/2));
 	}
 	
 	if keyboard_check(ord("W")) or keyboard_check(ord("A")) or keyboard_check(ord("S")) or keyboard_check(ord("D")){
@@ -58,7 +62,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		hspeed = playerSpeed;
 	}
 
-if obj_weapon.equipped {
+if equipped != pointer_null {
 
 	if keyboard_check_pressed(vk_space){
 		cursor_sprite = spr_cursorWarp;
