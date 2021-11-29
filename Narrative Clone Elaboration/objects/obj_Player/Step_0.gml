@@ -10,11 +10,15 @@ if obj_GameController.upgradeMenuOn = 0{
 		cameraX = (playerXpos - cameraWidth/2) + (relMouseX/4);
 		cameraY = (playerYpos - cameraHeight/2) + (relMouseY/4);
 		
-		if(mouse_check_button_pressed(mb_left)){
-			show_debug_message(equipped.name)
-			with(equipped){
-				fire()
+		if(mouse_check_button(mb_left)){
+			if(mousePressed = false || equipped.autofire = true){
+				with(equipped){
+					fire()
+				}
 			}
+			mousePressed = true
+		} else {
+			mousePressed = false
 		}
 		
 		camera_set_view_pos(view_camera[0], cameraX, cameraY);

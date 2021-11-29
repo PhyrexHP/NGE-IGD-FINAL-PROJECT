@@ -29,7 +29,6 @@ if obj_GameController.upgradeMenuOn = 0{
 }
 
 function fire(){
-	show_debug_message(bulletTimer)
 	audio_play_sound(snd_loudCrunch, 2, false);
 	if(bulletTimer <= 0){
 		for (i = 0 ; i < projectiles; i += 1){
