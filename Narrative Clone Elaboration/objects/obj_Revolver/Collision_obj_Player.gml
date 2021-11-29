@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!equipped  && !obj_Player.gameStarted){ 
+if (obj_Player.gameStarted == false){ 
 	sprite_index = spr_RevolverHighlight
 	if keyboard_check_pressed(ord("E")) {
 		obj_Player.equipped = self;
