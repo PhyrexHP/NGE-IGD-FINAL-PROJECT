@@ -39,7 +39,7 @@ function fire(){
 				ydirection = mouse_y + irandom_range(spread, -spread);
 				direction = point_direction(x, y, xdirection, ydirection);
 				image_angle = point_direction(x, y, xdirection, ydirection);
-				speed = 30;
+				speed = irandom_range(25,35);
 			}
 		}
 		bulletTimer = room_speed/bulletsPerSecond

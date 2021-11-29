@@ -12,7 +12,6 @@ if obj_GameController.upgradeMenuOn = 0{
 		
 		if(mouse_check_button(mb_left)){
 			if(mousePressed = false || equipped.autofire = true){
-				show_debug_message("firing")
 				with(equipped){
 					fire()
 				}
