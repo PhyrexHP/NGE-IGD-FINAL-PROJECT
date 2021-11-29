@@ -4,3 +4,4 @@ projectiles = 1
 spread = 15
 bulletTimer = 0
 bulletsPerSecond = 3
+name = "revolver"

@@ -41,18 +41,17 @@ function fire(){
 				image_angle = point_direction(x, y, xdirection, ydirection);
 				speed = 30;
 			}
+		}
+		bulletTimer = room_speed/bulletsPerSecond
 			
-			bulletTimer = room_speed/bulletsPerSecond
-			
-			if(ammo != -1){
-				ammo -= 1
-			}
-			if(ammo == 0){
-				newRevolver = instance_create_depth(x, y, 0, obj_Revolver)
-				newRevolver.name = "newRevolver"
-				obj_Player.equipped = newRevolver
-				instance_destroy()
-			}
+		if(ammo != -1){
+			ammo -= 1
+		}
+		if(ammo == 0){
+			newRevolver = instance_create_depth(x, y, 0, obj_Revolver)
+			newRevolver.name = "newRevolver"
+			obj_Player.equipped = newRevolver
+			instance_destroy()
 		}
 	}
 }
