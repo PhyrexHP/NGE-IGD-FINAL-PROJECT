@@ -11,6 +11,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		cameraY = (playerYpos - cameraHeight/2) + (relMouseY/4);
 		
 		if(mouse_check_button_pressed(mb_left)){
+			show_debug_message(equipped.name)
 			with(equipped){
 				fire()
 			}
