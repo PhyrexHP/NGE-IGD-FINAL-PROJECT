@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if healthPoints <= 0{
-	if (irandom_range(0, 10) < 5 && sprite_index != spr_AcolyteDead){
-		instance_create_depth(x, y, 0, obj_shotgun)
+	if (sprite_index != spr_AcolyteDead){
+		dropWeapon()
 	}
 	
 	if obj_weapon.explode = 0{
