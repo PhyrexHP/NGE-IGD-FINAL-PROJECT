@@ -29,11 +29,11 @@ if obj_GameController.upgradeMenuOn = 0{
 }
 
 function fire(){
-	audio_play_sound(snd_loudCrunch, 2, false);
 	if(bulletTimer <= 0){
 		for (i = 0 ; i < projectiles; i += 1){
 			bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
 			bullet.spread = spread;
+			audio_play_sound(snd_loudCrunch, 2, false);
 			with(bullet){
 				xdirection = mouse_x + irandom_range(spread, -spread);
 				ydirection = mouse_y + irandom_range(spread, -spread);
