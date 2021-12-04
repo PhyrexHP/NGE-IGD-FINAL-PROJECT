@@ -89,6 +89,11 @@ if(place_meeting(x + hspeed, y, obj_Collidable)){
 	hspeed = 0
 }
 
+if(iframes > 0){
+	iframes--
+}
+show_debug_message(Health)
+
 hspeed = hspeed * 0.8;
 vspeed = vspeed * 0.8;
 	
