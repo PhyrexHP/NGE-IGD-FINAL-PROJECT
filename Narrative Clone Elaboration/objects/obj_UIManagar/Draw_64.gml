@@ -1,3 +1,4 @@
+//draws the weapon and the box surrounding it
 draw_sprite_ext(spr_UIWeapon, 0, xOffset, yOffset, scale, scale, 0, c_white, 1)
 if(obj_Player.equipped != pointer_null){
 	weapon = obj_Player.equipped
