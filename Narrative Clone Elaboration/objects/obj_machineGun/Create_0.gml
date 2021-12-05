@@ -1,7 +1,8 @@
 /// @description Sets variables for specific weapon type
 damage = 1
 projectiles = 1
-ammo = 30
+maxAmmo = 30
+ammo = maxAmmo
 spread = 30
 bulletTimer = 0
 bulletsPerSecond = 10

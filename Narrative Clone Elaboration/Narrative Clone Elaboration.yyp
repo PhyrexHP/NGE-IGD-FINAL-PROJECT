@@ -82,6 +82,7 @@
     {"id":{"name":"obj_npcCollision","path":"objects/obj_npcCollision/obj_npcCollision.yy",},"order":3,},
     {"id":{"name":"obj_UIManagar","path":"objects/obj_UIManagar/obj_UIManagar.yy",},"order":29,},
     {"id":{"name":"spr_shotgun","path":"sprites/spr_shotgun/spr_shotgun.yy",},"order":39,},
+    {"id":{"name":"spr_UIAmmoBar","path":"sprites/spr_UIAmmoBar/spr_UIAmmoBar.yy",},"order":44,},
     {"id":{"name":"spr_upgradeDamageHighlighted","path":"sprites/spr_upgradeDamageHighlighted/spr_upgradeDamageHighlighted.yy",},"order":25,},
     {"id":{"name":"snd_backtrack","path":"sounds/snd_backtrack/snd_backtrack.yy",},"order":4,},
     {"id":{"name":"rm_gameRoom","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},"order":0,},
