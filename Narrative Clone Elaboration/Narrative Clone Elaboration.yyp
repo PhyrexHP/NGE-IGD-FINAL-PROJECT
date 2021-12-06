@@ -19,7 +19,7 @@
     {"id":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},"order":15,},
     {"id":{"name":"spr_PlayerIdle","path":"sprites/spr_PlayerIdle/spr_PlayerIdle.yy",},"order":1,},
     {"id":{"name":"spr_PlayerIdleUp","path":"sprites/spr_PlayerIdleUp/spr_PlayerIdleUp.yy",},"order":2,},
-    {"id":{"name":"spr_UIHealth","path":"sprites/spr_UIHealth/spr_UIHealth.yy",},"order":41,},
+    {"id":{"name":"spr_UIHealth","path":"sprites/spr_UIHealth/spr_UIHealth.yy",},"order":1,},
     {"id":{"name":"spr_stoneBig","path":"sprites/spr_stoneBig/spr_stoneBig.yy",},"order":7,},
     {"id":{"name":"obj_Revolver","path":"objects/obj_Revolver/obj_Revolver.yy",},"order":11,},
     {"id":{"name":"spr_AcolyteRun","path":"sprites/spr_AcolyteRun/spr_AcolyteRun.yy",},"order":3,},
@@ -142,7 +142,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "Narrative Clone Elaboration",
