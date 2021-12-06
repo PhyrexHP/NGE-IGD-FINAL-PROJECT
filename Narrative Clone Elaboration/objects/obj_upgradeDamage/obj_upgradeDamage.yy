@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_upgradeParent",
+    "path": "objects/obj_upgradeParent/obj_upgradeParent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "upgrade Objects",
+    "path": "folders/Objects/upgrade Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_upgradeDamage",

@@ -1,1 +1,0 @@
-draw_sprite(spr_upgradeChain, 0, x, y)
