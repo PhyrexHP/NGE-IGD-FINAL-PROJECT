@@ -10,7 +10,6 @@ if(obj_Player.equipped != pointer_null){
 	ammoXOffset = xOffset + xOffset/2 + (sprite_get_width(spr_UIWeapon) * scale)
 	ammoYOffset = yOffset + ((sprite_get_height(spr_UIWeapon) - sprite_get_height(spr_UIHealth)) * scale)
 	draw_sprite_ext(spr_UIHealthBackground, 0, ammoXOffset, ammoYOffset, scale, scale, 0, c_white, 1)
-	draw_sprite_ext(spr_UIHealth, 0, ammoXOffset, ammoYOffset, scale, scale, 0, c_white, 1)
 	ammobarXOffset = ammoXOffset + (4 * scale)
 	ammobarYOffset = ammoYOffset + (4 * scale)
 	ammobarHeight = 20 * scale
@@ -20,6 +19,7 @@ if(obj_Player.equipped != pointer_null){
 		ammobarWidth = (120 * scale)
 	}
 	draw_sprite_stretched(spr_UIAmmoBar, 0, ammobarXOffset, ammobarYOffset, ammobarWidth, ammobarHeight)
+	draw_sprite_ext(spr_UIHealth, 0, ammoXOffset, ammoYOffset, scale, scale, 0, c_white, 1)
 }
 
 //draws health bar
