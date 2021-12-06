@@ -81,6 +81,7 @@
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":16,},
     {"id":{"name":"obj_npcCollision","path":"objects/obj_npcCollision/obj_npcCollision.yy",},"order":3,},
     {"id":{"name":"obj_UIManagar","path":"objects/obj_UIManagar/obj_UIManagar.yy",},"order":29,},
+    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":30,},
     {"id":{"name":"spr_shotgun","path":"sprites/spr_shotgun/spr_shotgun.yy",},"order":39,},
     {"id":{"name":"spr_UIAmmoBar","path":"sprites/spr_UIAmmoBar/spr_UIAmmoBar.yy",},"order":44,},
     {"id":{"name":"spr_upgradeDamageHighlighted","path":"sprites/spr_upgradeDamageHighlighted/spr_upgradeDamageHighlighted.yy",},"order":25,},
@@ -136,7 +137,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Narrative Clone Elaboration",
