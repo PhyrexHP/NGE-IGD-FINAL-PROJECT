@@ -18,7 +18,7 @@ if(obj_Player.equipped != pointer_null){
 	} else {
 		ammobarWidth = (120 * scale)
 	}
-	draw_sprite_stretched(spr_UIAmmoBar, 0, ammobarXOffset, ammobarYOffset, ammobarWidth, ammobarHeight)
+	draw_sprite_stretched(spr_UIAmmoBar, 0, ammobarXOffset - 1, ammobarYOffset - 1, ammobarWidth + 2, ammobarHeight + 2)
 	draw_sprite_ext(spr_UIHealth, 0, ammoXOffset, ammoYOffset, scale, scale, 0, c_white, 1)
 }
 
@@ -30,5 +30,5 @@ healthbarXOffset = healthXOffset + (4 * scale)
 healthbarYOffset = healthYOffset + (4 * scale)
 healthbarWidth = (120 * scale) * (obj_Player.Health / obj_Player.maxHealth)
 healthbarHeight = 20 * scale
-draw_sprite_stretched(spr_UIHealthBar, 0, healthbarXOffset, healthbarYOffset, healthbarWidth, healthbarHeight)
+draw_sprite_stretched(spr_UIHealthBar, 0, healthbarXOffset - 1, healthbarYOffset - 1, healthbarWidth + 2, healthbarHeight + 2)
 draw_sprite_ext(spr_UIHealth, 0, healthXOffset, healthYOffset, scale, scale, 0, c_white, 1)
