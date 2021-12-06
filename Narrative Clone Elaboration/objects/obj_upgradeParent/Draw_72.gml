@@ -8,4 +8,3 @@ if (mouseOver){
 } else {
 	draw_sprite(spr_upgradeOutline, 0, x, y)
 }
-
