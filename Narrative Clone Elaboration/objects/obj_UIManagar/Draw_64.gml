@@ -8,7 +8,7 @@ if(obj_Player.equipped != pointer_null){
 
 	//draws ammo bar
 	ammoXOffset = xOffset + xOffset/2 + (sprite_get_width(spr_UIWeapon) * scale)
-	ammoYOffset = yOffset + ((sprite_get_height(spr_UIWeapon) - sprite_get_height(spr_UIHealth)) * scale)
+	ammoYOffset = yOffset + ((sprite_get_height(spr_UIWeapon) - (sprite_get_height(spr_UIHealth) -4)) * scale)
 	draw_sprite_ext(spr_UIHealthBackground, 0, ammoXOffset, ammoYOffset, scale, scale, 0, c_white, 1)
 	ammobarXOffset = ammoXOffset + (4 * scale)
 	ammobarYOffset = ammoYOffset + (4 * scale)
