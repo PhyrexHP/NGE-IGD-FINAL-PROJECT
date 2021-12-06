@@ -23,7 +23,6 @@
     {"id":{"name":"obj_Revolver","path":"objects/obj_Revolver/obj_Revolver.yy",},"order":11,},
     {"id":{"name":"spr_AcolyteRun","path":"sprites/spr_AcolyteRun/spr_AcolyteRun.yy",},"order":18,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":8,},
-    {"id":{"name":"obj_TEST","path":"objects/obj_TEST/obj_TEST.yy",},"order":30,},
     {"id":{"name":"spr_stoneMed","path":"sprites/spr_stoneMed/spr_stoneMed.yy",},"order":5,},
     {"id":{"name":"obj_upgradeExplode","path":"objects/obj_upgradeExplode/obj_upgradeExplode.yy",},"order":18,},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":11,},
