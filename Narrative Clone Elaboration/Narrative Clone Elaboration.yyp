@@ -10,6 +10,7 @@
     {"id":{"name":"snd_menuStart","path":"sounds/snd_menuStart/snd_menuStart.yy",},"order":0,},
     {"id":{"name":"spr_upgradeProj","path":"sprites/spr_upgradeProj/spr_upgradeProj.yy",},"order":7,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":0,},
+    {"id":{"name":"obj_helloRyan","path":"objects/obj_helloRyan/obj_helloRyan.yy",},"order":31,},
     {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},"order":13,},
     {"id":{"name":"spr_upgradeProjHighlighted","path":"sprites/spr_upgradeProjHighlighted/spr_upgradeProjHighlighted.yy",},"order":8,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":12,},
