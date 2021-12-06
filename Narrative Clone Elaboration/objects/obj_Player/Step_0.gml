@@ -52,7 +52,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		}
 		else{
 			sprite_index = spr_PlayerWalkHor;
-			image_xscale = -1;
+			image_xscale = 1;
 		}
 		hspeed = -(playerSpeed);
 	}
@@ -62,7 +62,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		}
 		else{
 			sprite_index = spr_PlayerWalkHor;
-			image_xscale = 1;
+			image_xscale = -1;
 		}
 		hspeed = playerSpeed;
 	}
