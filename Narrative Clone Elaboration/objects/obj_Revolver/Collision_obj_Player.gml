@@ -9,4 +9,6 @@ if (obj_Player.gameStarted == false){
 		window_set_cursor(cr_none);
 		cursor_sprite = spr_cursor;
 	}
+} else {
+	sprite_index = spr_Revolver
 }
