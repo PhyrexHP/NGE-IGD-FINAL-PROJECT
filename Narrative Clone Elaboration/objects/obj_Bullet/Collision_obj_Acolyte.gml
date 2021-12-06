@@ -10,6 +10,7 @@ if (other.sprite_index = spr_AcolyteIdle or other.sprite_index = spr_AcolyteDama
 	if chainsLeft > 0{
 		image_angle = point_direction(x, y, obj_Acolyte.x, obj_Acolyte.y);
 		direction = point_direction(x, y, obj_Acolyte.x, obj_Acolyte.y);
+		chainsLeft -= 1
 	}
 
 	if chainsLeft = 0{
