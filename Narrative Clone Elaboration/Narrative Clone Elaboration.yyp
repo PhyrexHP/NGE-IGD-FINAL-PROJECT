@@ -3,6 +3,7 @@
     {"id":{"name":"spr_upgradeDamage","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"order":30,},
     {"id":{"name":"spr_wallSides","path":"sprites/spr_wallSides/spr_wallSides.yy",},"order":35,},
     {"id":{"name":"obj_titletext","path":"objects/obj_titletext/obj_titletext.yy",},"order":2,},
+    {"id":{"name":"obj_test2","path":"objects/obj_test2/obj_test2.yy",},"order":31,},
     {"id":{"name":"spr_upgradeChain","path":"sprites/spr_upgradeChain/spr_upgradeChain.yy",},"order":26,},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"order":22,},
     {"id":{"name":"snd_menuStart","path":"sounds/snd_menuStart/snd_menuStart.yy",},"order":0,},
