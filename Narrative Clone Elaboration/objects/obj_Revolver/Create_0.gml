@@ -1,6 +1,6 @@
 /// @description 
-damage = 2
-projectiles = 1
+damage = 10
+projectiles = 10
 spread = 15
 bulletTimer = 0
 bulletsPerSecond = 3

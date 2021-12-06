@@ -1,5 +1,7 @@
 mouseOver = false
-draw_self()
+drawX = x - sprite_get_height(spr_upgradeBackground)
+drawY = x - sprite_get_height(spr_upgradeBackground)
+draw_sprite(spr_upgradeBackground, 0, x, y)
 if (mouse_x < (x + 175) and mouse_x > (x - 175)) and (mouse_y < (y + 175) and mouse_y > (y - 175)){
 	mouseOver = true
 }
