@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_upgradeBackground",
+    "path": "sprites/spr_upgradeBackground/spr_upgradeBackground.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

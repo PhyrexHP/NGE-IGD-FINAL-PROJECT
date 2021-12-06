@@ -67,7 +67,6 @@
     {"id":{"name":"obj_upgradeParent","path":"objects/obj_upgradeParent/obj_upgradeParent.yy",},"order":30,},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},"order":10,},
     {"id":{"name":"rm_gameStart","path":"rooms/rm_gameStart/rm_gameStart.yy",},"order":1,},
-    {"id":{"name":"spr_upgradeChainHighlighted","path":"sprites/spr_upgradeChainHighlighted/spr_upgradeChainHighlighted.yy",},"order":2,},
     {"id":{"name":"spr_AcolyteDead","path":"sprites/spr_AcolyteDead/spr_AcolyteDead.yy",},"order":1,},
     {"id":{"name":"obj_leave","path":"objects/obj_leave/obj_leave.yy",},"order":9,},
     {"id":{"name":"obj_packspawner","path":"objects/obj_packspawner/obj_packspawner.yy",},"order":25,},

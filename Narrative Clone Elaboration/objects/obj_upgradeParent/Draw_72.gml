@@ -1,4 +1,3 @@
-draw_sprite(spr_upgradeBackground, 0, x, y)
 mouseOver = false
 if (mouse_x < (x + 175) and mouse_x > (x - 175)) and (mouse_y < (y + 175) and mouse_y > (y - 175)){
 	mouseOver = true

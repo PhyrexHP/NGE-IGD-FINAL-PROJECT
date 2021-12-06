@@ -36,7 +36,7 @@ if aggro = 0 and alive = 1{
 	if idleTimer % 120 = 0{
 		if movementTimer % 60 = 0{
 			direction = random_range(1, 360);
-			speed = 3;
+			speed = 2;
 			sprite_index = spr_AcolyteRun;
 		}
 		movementTimer += 1;
@@ -53,7 +53,7 @@ if aggro = 0 and alive = 1{
 }
 
 if aggro = 1 and alive = 1{
-	speed = 3
+	speed = 2
 	direction = point_direction(x, y, obj_Player.x, obj_Player.y);
 	if growlPlayed = 0{
 		audio_play_sound(snd_cultistGrowl, 1, false);
