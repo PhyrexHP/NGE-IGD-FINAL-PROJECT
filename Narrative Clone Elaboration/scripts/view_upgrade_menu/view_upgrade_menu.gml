@@ -22,5 +22,4 @@ function view_upgrade_menu(){
 	upgrades[picker].y = placeY
 	
 	array_delete(upgrades, 0, array_length(upgrades))
-	show_debug_message(upgrades)
 }

@@ -30,7 +30,11 @@ if obj_GameController.upgradeMenuOn = 0{
 
 function fire(){
 	if(bulletTimer <= 0){
-		for (i = 0 ; i < projectiles; i += 1){
+		shots = projectiles
+		if(name = "revolver"){
+			shots = projectiles + obj_Player.upgradeExtraBullets
+		}
+		for (i = 0 ; i < shots; i += 1){
 			bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
 			bullet.spread = spread;
 			audio_play_sound(snd_loudCrunch, 2, false);
@@ -49,7 +53,6 @@ function fire(){
 		}
 		if(ammo == 0){
 			newRevolver = instance_create_depth(x, y, 0, obj_Revolver)
-			newRevolver.name = "newRevolver"
 			obj_Player.equipped = newRevolver
 			instance_destroy()
 		}
