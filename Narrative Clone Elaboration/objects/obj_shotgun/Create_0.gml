@@ -1,5 +1,5 @@
 damage = 3
-projectiles = 7
+projectiles = 7 + obj_Player.upgradeExtraBullets
 spread = 60
 bulletsPerSecond = 1
 bulletTimer = 0
