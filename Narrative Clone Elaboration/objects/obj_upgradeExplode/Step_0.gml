@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (mouseOver){
 	if keyboard_check_pressed(ord("E")){
-		obj_weapon.explode = 1;
+		obj_Player.upgradeExplode = true;
 		obj_GameController.upgradeMenuOn = 0;
 		obj_key.menuClosed = 1;
 		instance_destroy();
