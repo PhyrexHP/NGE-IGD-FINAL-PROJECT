@@ -55,24 +55,35 @@ function fire(){
 		if obj_Player.equipped.name == "revolver" {
 			global.shake = true
 			global.shake_power = 2
-			alarm[0] = 10
+			alarm[0] = 15
 		}
-		if obj_Player.equipped.name == "machine gun" {
+		else if obj_Player.equipped.name == "machine gun" {
 			global.shake = true
 			global.shake_power = 4
-			alarm[0] = 10
+			alarm[0] = 15
 		}
-		if obj_Player.equipped.name == "shotgun" {
+		else if obj_Player.equipped.name == "shotgun" {
 			global.shake = true
 			global.shake_power = 8
 			alarm[0] = 15
 		}
 		if(ammo == 0){
-			global.shake = false
-			global.shake_power = 0
+			global.gunswitch = true
+			show_debug_message(string(global.gunswitch))
 			newRevolver = instance_create_depth(x, y, 0, obj_Revolver)
 			obj_Player.equipped = newRevolver
 			instance_destroy()
 		}	
 	}
 }
+if global.gunswitch = true {
+	global.gunswitch_timer--
+	if global.gunswitch_timer = 0 {
+		global.shake = false
+		global.gunswitch_timer = 15
+		global.gunswitch = false
+	}
+}
+	
+	
+		
