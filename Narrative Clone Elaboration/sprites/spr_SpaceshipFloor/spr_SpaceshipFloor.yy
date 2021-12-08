@@ -21,15 +21,15 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 2,
+  "gridY": 2,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"29f81544-6fa2-494d-bcdd-566406ec0db8","path":"sprites/spr_background/spr_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29f81544-6fa2-494d-bcdd-566406ec0db8","path":"sprites/spr_background/spr_background.yy",},"LayerId":{"name":"e20ba2a3-f4f9-49b4-aafb-34cc5b0b9ecf","path":"sprites/spr_background/spr_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"resourceVersion":"1.0","name":"29f81544-6fa2-494d-bcdd-566406ec0db8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},"LayerId":{"name":"719732ed-c4c2-485b-9699-058a69befcbb","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SpaceshipFloor","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},"resourceVersion":"1.0","name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},
+    "spriteId": {"name":"spr_SpaceshipFloor","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cafd4b1f-9a5a-48f6-b70e-214d6783463d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29f81544-6fa2-494d-bcdd-566406ec0db8","path":"sprites/spr_background/spr_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e7530b8f-f1c7-409f-827b-7f77c8faf8c5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},
+    "parent": {"name":"spr_SpaceshipFloor","path":"sprites/spr_SpaceshipFloor/spr_SpaceshipFloor.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_background",
+    "name": "spr_SpaceshipFloor",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e20ba2a3-f4f9-49b4-aafb-34cc5b0b9ecf","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"719732ed-c4c2-485b-9699-058a69befcbb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "walls and tiles",
+    "path": "folders/Sprites/walls and tiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_background",
+  "name": "spr_SpaceshipFloor",
   "tags": [],
   "resourceType": "GMSprite",
 }

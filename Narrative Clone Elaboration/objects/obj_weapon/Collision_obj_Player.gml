@@ -5,5 +5,6 @@ if(obj_Player.equipped != self){
 			instance_destroy(obj_Player.equipped)
 		}
 		obj_Player.equipped = self
+		projectiles = projectiles + obj_Player.upgradeExtraBullets
 	}
 }
