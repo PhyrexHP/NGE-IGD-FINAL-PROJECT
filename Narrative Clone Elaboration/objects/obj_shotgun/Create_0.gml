@@ -1,7 +1,7 @@
 damage = 3
 projectiles = 7
 spread = 60
-bulletsPerSecond = 1
+bulletsPerSecond = 1.25
 bulletTimer = 0
 maxAmmo = 8
 ammo = maxAmmo
