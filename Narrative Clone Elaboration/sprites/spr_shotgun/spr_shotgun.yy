@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 48,
-  "bbox_top": 5,
+  "bbox_left": 2,
+  "bbox_right": 47,
+  "bbox_top": 6,
   "bbox_bottom": 23,
   "HTile": false,
   "VTile": false,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 2,
+  "gridY": 2,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7e37b9b5-ef8a-44ab-9e65-2c74dd727d95","path":"sprites/spr_shotgun/spr_shotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7e37b9b5-ef8a-44ab-9e65-2c74dd727d95","path":"sprites/spr_shotgun/spr_shotgun.yy",},"LayerId":{"name":"fccf9115-a264-498c-9336-a6f9257e1987","path":"sprites/spr_shotgun/spr_shotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

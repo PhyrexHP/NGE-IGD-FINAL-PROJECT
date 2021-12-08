@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 2,
-  "bbox_right": 46,
+  "bbox_right": 47,
   "bbox_top": 2,
-  "bbox_bottom": 22,
+  "bbox_bottom": 25,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 2,
+  "gridY": 2,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"85dca37a-7d32-4bf8-9016-d74f67c8f2c2","path":"sprites/spr_machineGun/spr_machineGun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"85dca37a-7d32-4bf8-9016-d74f67c8f2c2","path":"sprites/spr_machineGun/spr_machineGun.yy",},"LayerId":{"name":"77d58f08-f4c8-4d36-b33b-3f5ca3e011a7","path":"sprites/spr_machineGun/spr_machineGun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

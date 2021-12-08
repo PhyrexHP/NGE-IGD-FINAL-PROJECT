@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 2,
+  "gridY": 2,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8d5b3621-17ef-43d0-a4b5-018478937480","path":"sprites/spr_Revolver/spr_Revolver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8d5b3621-17ef-43d0-a4b5-018478937480","path":"sprites/spr_Revolver/spr_Revolver.yy",},"LayerId":{"name":"b66f166c-5f50-4299-83a5-03a0493680ff","path":"sprites/spr_Revolver/spr_Revolver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
