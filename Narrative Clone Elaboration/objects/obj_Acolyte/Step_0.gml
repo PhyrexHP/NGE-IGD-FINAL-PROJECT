@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Acolyte step event
 if healthPoints <= 0{
 	if (sprite_index != spr_AcolyteDead){
 		dropWeapon()
