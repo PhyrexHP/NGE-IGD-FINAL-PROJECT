@@ -52,9 +52,28 @@ function fire(){
 			ammo -= 1
 		}
 		if(ammo == 0){
+			global.shake = false
+			global.shake_power = 0
 			newRevolver = instance_create_depth(x, y, 0, obj_Revolver)
 			obj_Player.equipped = newRevolver
 			instance_destroy()
 		}
+		if obj_Player.equipped.name == "revolver" {
+			global.shake = true
+			global.shake_power = 2
+			alarm[0] = 10
+		}
+		if obj_Player.equipped.name == "machine gun" {
+			global.shake = true
+			global.shake_power = 4
+			alarm[0] = 10
+		}
+		if obj_Player.equipped.name == "shotgun" {
+			global.shake = true
+			global.shake_power = 8
+			alarm[0] = 15
+		}
+			
+			
 	}
 }

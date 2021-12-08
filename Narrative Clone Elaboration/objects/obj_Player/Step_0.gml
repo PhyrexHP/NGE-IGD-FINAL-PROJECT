@@ -9,7 +9,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		relMouseY = mouse_y - playerYpos
 		cameraX = (playerXpos - cameraWidth/2) + (relMouseX/4);
 		cameraY = (playerYpos - cameraHeight/2) + (relMouseY/4);
-		
+
 		if(mouse_check_button(mb_left)){
 			if(mousePressed = false || equipped.autofire = true){
 				with(equipped){
@@ -20,8 +20,15 @@ if obj_GameController.upgradeMenuOn = 0{
 		} else {
 			mousePressed = false
 		}
+		if mousePressed = false {
+			global.shake = false
+		}
 		
 		camera_set_view_pos(view_camera[0], cameraX, cameraY);
+		if global.shake = true {
+			camera_set_view_pos(view_camera[0],cameraX + random_range(-global.shake_power, global.shake_power),cameraY + random_range(-global.shake_power, global.shake_power))
+		}
+		
 	} else {
 	camera_set_view_pos(view_camera[0], x - (cameraWidth/2), y - (cameraHeight/2));
 	}

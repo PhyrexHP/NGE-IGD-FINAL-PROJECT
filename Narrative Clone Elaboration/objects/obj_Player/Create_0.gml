@@ -6,3 +6,5 @@ cameraHeight = camera_get_view_height(view_camera[0]);
 equipped = pointer_null
 mousePressed = false
 Health = maxHealth
+global.shake = false
+global.shake_power = 0
