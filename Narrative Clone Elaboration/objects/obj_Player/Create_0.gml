@@ -8,3 +8,5 @@ mousePressed = false
 Health = maxHealth
 global.shake = false
 global.shake_power = 0
+global.gunswitch = false
+global.gunswitch_timer = 15

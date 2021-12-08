@@ -20,10 +20,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		} else {
 			mousePressed = false
 		}
-		if mousePressed = false {
-			global.shake = false
-		}
-		
+	
 		camera_set_view_pos(view_camera[0], cameraX, cameraY);
 		if global.shake = true {
 			camera_set_view_pos(view_camera[0],cameraX + random_range(-global.shake_power, global.shake_power),cameraY + random_range(-global.shake_power, global.shake_power))
