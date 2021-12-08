@@ -4,7 +4,7 @@ if healthPoints <= 0{
 	if (sprite_index != spr_AcolyteDead){
 		dropWeapon()
 		
-		if (obj_Player.upgradeExplode && obj_Player.equipped.name == "shotgun"){
+		if obj_Player.upgradeExplode = true{
 		instance_create_depth(x, y, (depth+1), obj_explosion);
 		if pointAdded = 0{
 			obj_GameController.cultistsKilled += 1;
@@ -14,7 +14,7 @@ if healthPoints <= 0{
 	}
 	}
 	
-	if obj_weapon.explode = 0{
+	if obj_Player.upgradeExplode = false{
 		sprite_index = spr_AcolyteDead;
 		alive = 0;
 		speed = 0;

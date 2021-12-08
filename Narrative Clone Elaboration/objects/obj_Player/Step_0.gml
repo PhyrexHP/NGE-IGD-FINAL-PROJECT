@@ -35,22 +35,17 @@ if obj_GameController.upgradeMenuOn = 0{
 	
 	if keyboard_check(ord("W")) or keyboard_check(ord("A")) or keyboard_check(ord("S")) or keyboard_check(ord("D")){
 	}
-	else if sprite_index = spr_PlayerWalkUp{
-		sprite_index = spr_PlayerIdleUp;
-	}
-	else if sprite_index = spr_PlayerIdleUp{
-	}
 	else{
 		sprite_index = spr_PlayerIdle;
 	}
 
 	if keyboard_check(ord("W")){
-		sprite_index = spr_PlayerWalkUp;
+		sprite_index = spr_PlayerWalk;
 		vspeed = -(playerSpeed);
 	}
 
 	if keyboard_check(ord("S")){
-		sprite_index = spr_PlayerWalkDown
+		sprite_index = spr_PlayerWalk;
 		vspeed = playerSpeed;
 	}
 
@@ -58,7 +53,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		if keyboard_check(ord("W")) or keyboard_check(ord("S")){
 		}
 		else{
-			sprite_index = spr_PlayerWalkHor;
+			sprite_index = spr_PlayerWalk;
 			image_xscale = 1;
 		}
 		hspeed = -(playerSpeed);
@@ -68,7 +63,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		if keyboard_check(ord("W")) or keyboard_check(ord("S")){
 		}
 		else{
-			sprite_index = spr_PlayerWalkHor;
+			sprite_index = spr_PlayerWalk;
 			image_xscale = -1;
 		}
 		hspeed = playerSpeed;
