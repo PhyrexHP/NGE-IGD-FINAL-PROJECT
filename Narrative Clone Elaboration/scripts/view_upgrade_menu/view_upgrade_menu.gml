@@ -9,6 +9,9 @@ function view_upgrade_menu(){
 	if(!obj_Player.upgradeExplode){
 		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeExplode))
 	}
+	if(!obj_Player.upgradeLight){
+		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeLight))
+	}
 	if (obj_Player.Health != obj_Player.maxHealth){
 		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeHealth))
 	}
