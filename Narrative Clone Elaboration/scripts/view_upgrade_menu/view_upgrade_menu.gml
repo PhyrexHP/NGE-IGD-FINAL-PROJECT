@@ -4,7 +4,7 @@ function view_upgrade_menu(){
 	place1X = obj_Player.cameraX + obj_Player.cameraWidth/4
 	place2X = obj_Player.cameraX + obj_Player.cameraWidth*3/4
 	placeY = obj_Player.cameraY + obj_Player.cameraHeight/2
-	placeDepth = obj_bush.depth - 1
+	placeDepth = obj_monsterSpawner.depth - 1
 	upgrades = [instance_create_depth(0, 0 , placeDepth, obj_upgradeChain), instance_create_depth(0, 0, placeDepth, obj_upgradeDamage), instance_create_depth(0, 0, placeDepth, obj_upgradeProj)]
 	if(!obj_Player.upgradeExplode){
 		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeExplode))
