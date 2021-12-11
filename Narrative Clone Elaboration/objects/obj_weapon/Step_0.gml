@@ -68,16 +68,6 @@ function fire(){
 			alarm[0] = 15
 		}
 		
-		if obj_Player.upgradeExplode = true && obj_Player.equipped.name == "shotgun"  {
-			obj_Bullet.sprite_index = spr_ExplodeBullet
-		}
-		if obj_Player.upgradeExtraBullets > 0 && obj_Player.equipped.name == "revolver" {
-			obj_Bullet.sprite_index = spr_ExtraBullet
-		}
-		if obj_Player.upgradeChains > 1 && obj_Player.equipped.name == "machine gun" {
-			obj_Bullet.sprite_index = spr_ChainBullet
-		}
-		
 		if(ammo == 0){
 			global.gunswitch = true
 			show_debug_message(string(global.gunswitch))
