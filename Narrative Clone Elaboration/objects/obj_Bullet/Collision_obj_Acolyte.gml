@@ -3,7 +3,7 @@
 if image_index = not spr_RevolverBulletCollide{
 	if (other.sprite_index = spr_AcolyteIdle or other.sprite_index = spr_AcolyteDamaged or other.sprite_index = spr_AcolyteRun) and other.bulletHit = 0{
 	
-		if sprite_index = spr_RevolverBullet{
+		if sprite_index = spr_RevolverBullet || sprite_index = spr_ExplodeBullet || sprite_index = spr_ChainBullet || sprite_index = spr_ExtraBullet {
 			other.healthPoints = other.healthPoints - (obj_Player.equipped.damage + obj_Player.upgradeDamageUp);
 			other.sprite_index = spr_AcolyteDamaged;
 		}

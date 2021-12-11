@@ -31,13 +31,13 @@ if obj_GameController.upgradeMenuOn = 0{
 function fire(){
 	if(bulletTimer <= 0){
 		shots = projectiles
+		audio_play_sound(snd_loudCrunch, 2, false);
 		if(name = "revolver"){
 			shots = projectiles + obj_Player.upgradeExtraBullets
 		}
 		for (i = 0 ; i < shots; i += 1){
 			bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
 			bullet.spread = spread;
-			audio_play_sound(snd_loudCrunch, 2, false);
 			with(bullet){
 				xdirection = mouse_x + irandom_range(spread, -spread);
 				ydirection = mouse_y + irandom_range(spread, -spread);
@@ -67,6 +67,17 @@ function fire(){
 			global.shake_power = 8
 			alarm[0] = 15
 		}
+		
+		if obj_Player.upgradeExplode = true && obj_Player.equipped.name == "shotgun"  {
+			obj_Bullet.sprite_index = spr_ExplodeBullet
+		}
+		if obj_Player.upgradeExtraBullets > 0 && obj_Player.equipped.name == "revolver" {
+			obj_Bullet.sprite_index = spr_ExtraBullet
+		}
+		if obj_Player.upgradeChains > 1 && obj_Player.equipped.name == "machine gun" {
+			obj_Bullet.sprite_index = spr_ChainBullet
+		}
+		
 		if(ammo == 0){
 			global.gunswitch = true
 			show_debug_message(string(global.gunswitch))
