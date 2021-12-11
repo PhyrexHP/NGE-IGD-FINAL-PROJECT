@@ -2,6 +2,8 @@
 // You can write your code in this editor
 if obj_GameController.upgradeMenuOn = 0{
 
+	depth = y * -1
+
 	if gameStarted {
 		playerXpos = x;
 		playerYpos = y;
