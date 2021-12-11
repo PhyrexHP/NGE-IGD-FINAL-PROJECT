@@ -8,9 +8,10 @@ if image_index = not spr_RevolverBulletCollide{
 			other.sprite_index = spr_AcolyteDamaged;
 		}
 
-		if chainsLeft > 0{
-			image_angle = point_direction(x, y, obj_Acolyte.x, obj_Acolyte.y);
-			direction = point_direction(x, y, obj_Acolyte.x, obj_Acolyte.y);
+		if chainsLeft > 0 && obj_Player.equipped.name = "machine gun"{
+			nearestAcolyte = instance_nearest(x, y, obj_Acolyte)
+			image_angle = point_direction(x, y, nearestAcolyte.x, nearestAcolyte.y);
+			direction = point_direction(x, y, nearestAcolyte.x, nearestAcolyte.y);
 			chainsLeft -= 1
 		}
 
