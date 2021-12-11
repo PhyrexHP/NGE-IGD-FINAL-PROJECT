@@ -21,6 +21,7 @@
     {"id":{"name":"obj_monsterSpawner","path":"objects/obj_monsterSpawner/obj_monsterSpawner.yy",},"order":6,},
     {"id":{"name":"view_upgrade_menu","path":"scripts/view_upgrade_menu/view_upgrade_menu.yy",},"order":1,},
     {"id":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},"order":15,},
+    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":38,},
     {"id":{"name":"spr_PlayerIdleOld","path":"sprites/spr_PlayerIdleOld/spr_PlayerIdleOld.yy",},"order":1,},
     {"id":{"name":"spr_PlayerIdleUp","path":"sprites/spr_PlayerIdleUp/spr_PlayerIdleUp.yy",},"order":2,},
     {"id":{"name":"spr_UIHealth","path":"sprites/spr_UIHealth/spr_UIHealth.yy",},"order":1,},
