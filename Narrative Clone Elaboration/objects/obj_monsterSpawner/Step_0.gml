@@ -1,12 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if obj_Player.y > y{
-	depth = obj_Player.depth +1;
-}
-else{
-	depth = obj_Player.depth -1;
-}
-
 if obj_GameController.cultistsSpawning = 2 and packSpawned = 0{
 	instance_create_depth(x, y, (depth - 1), obj_packspawner);
 	packSpawned = 1

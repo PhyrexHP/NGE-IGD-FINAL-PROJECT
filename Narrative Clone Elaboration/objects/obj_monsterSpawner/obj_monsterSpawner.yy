@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_bush",
-    "path": "sprites/spr_bush/spr_bush.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
