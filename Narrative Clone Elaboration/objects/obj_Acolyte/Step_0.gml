@@ -3,7 +3,7 @@ if healthPoints <= 0{
 	if (sprite_index != spr_AcolyteDead){
 		dropWeapon()
 		
-		if obj_Player.upgradeExplode = true{
+		if (obj_Player.upgradeExplode = true && obj_Player.equipped.name = "shotgun"){
 			instance_create_depth(x, y, (depth+1), obj_explosion);
 			if pointAdded = 0{
 				obj_GameController.cultistsKilled += 1;
@@ -71,6 +71,14 @@ if sprite_index = spr_AcolyteDamaged or obj_GameController.cultistsKilled >= 10{
 
 if obj_GameController.cultistsSpawning = 1{
 	instance_destroy();
+}
+
+
+if(place_meeting(x, y + vspeed, obj_Collidable)){
+	vspeed = 0
+} 
+if(place_meeting(x + hspeed, y, obj_Collidable)){
+	hspeed = 0
 }
 
 bulletHit = 0;
