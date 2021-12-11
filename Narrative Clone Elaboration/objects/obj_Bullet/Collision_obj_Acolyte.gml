@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if image_index = not spr_BulletYellowCollide and image_index = not spr_BulletGreenCollide and image_index = not spr_BulletRedCollide and image_index = not spr_BulletBlueCollide{
+if sprite_index = spr_BulletYellowCollide or sprite_index = spr_BulletGreenCollide or sprite_index = spr_BulletRedCollide or sprite_index = spr_BulletBlueCollide{
+}
+else {
 	if (other.sprite_index = spr_AcolyteIdle or other.sprite_index = spr_AcolyteDamaged or other.sprite_index = spr_AcolyteRun) and other.bulletHit = 0{
 	
 		if sprite_index = spr_RevolverBullet || sprite_index = spr_ExplodeBullet || sprite_index = spr_ChainBullet || sprite_index = spr_ExtraBullet {
@@ -16,26 +18,26 @@ if image_index = not spr_BulletYellowCollide and image_index = not spr_BulletGre
 		}
 
 		if chainsLeft = 0{
-		
-			if image_index = spr_RevolverBullet{
-				image_index = spr_BulletGreenCollide
-				speed = 0
+		show_debug_message("this code is running")
+			if sprite_index = spr_RevolverBullet{
+				show_debug_message("this is also running")
+				sprite_index = spr_BulletGreenCollide
 			}
 			
-			if image_index = spr_ChainBullet{
-				image_index = spr_BulletBlueCollide
-				speed = 0
+			if sprite_index = spr_ChainBullet{
+				sprite_index = spr_BulletBlueCollide
 			}
 			
-			if image_index = spr_ExplodeBullet{
-				image_index = spr_BulletRedCollide
-				speed = 0
+			if sprite_index = spr_ExplodeBullet{
+				sprite_index = spr_BulletRedCollide
 			}
 			
-			if image_index = spr_ExtraBullet{
-				image_index = spr_BulletYellowCollide
-				speed = 0
+			if sprite_index = spr_ExtraBullet{
+				sprite_index = spr_BulletYellowCollide
 			}
+			
+			speed = 0
+			
 		}
 	}
 
