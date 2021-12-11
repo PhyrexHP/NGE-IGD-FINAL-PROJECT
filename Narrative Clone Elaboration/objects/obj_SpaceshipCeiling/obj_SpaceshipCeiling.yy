@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_SpaceshipWallA",
-    "path": "sprites/spr_SpaceshipWallA/spr_SpaceshipWallA.yy",
+    "name": "spr_SpaceshipCeiling",
+    "path": "sprites/spr_SpaceshipCeiling/spr_SpaceshipCeiling.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_Collidable",
-    "path": "objects/obj_Collidable/obj_Collidable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_SpaceshipWallA",
+  "name": "obj_SpaceshipCeiling",
   "tags": [],
   "resourceType": "GMObject",
 }
