@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if obj_GameController.upgradeMenuOn = 0{
 
-	depth = y * -1
+	depth = (y * -1) + 32
 
 	if gameStarted {
 		playerXpos = x;
@@ -67,19 +67,6 @@ if obj_GameController.upgradeMenuOn = 0{
 		}
 		hspeed = playerSpeed;
 	}
-
-if equipped != pointer_null {
-
-	if keyboard_check_pressed(vk_space){
-		cursor_sprite = spr_cursorWarp;
-	}
-	
-	if keyboard_check_released(vk_space){
-		x = mouse_x;
-		y = mouse_y;
-		cursor_sprite = spr_cursor;
-	}
-}
 	
 }
 

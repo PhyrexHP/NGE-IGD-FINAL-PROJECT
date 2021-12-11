@@ -73,4 +73,12 @@ if obj_GameController.cultistsSpawning = 1{
 	instance_destroy();
 }
 
+
+if(place_meeting(x, y + vspeed, obj_Collidable)){
+	vspeed = 0
+} 
+if(place_meeting(x + hspeed, y, obj_Collidable)){
+	hspeed = 0
+}
+
 bulletHit = 0;
