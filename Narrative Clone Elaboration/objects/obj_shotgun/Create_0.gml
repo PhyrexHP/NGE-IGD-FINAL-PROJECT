@@ -7,3 +7,4 @@ maxAmmo = 8
 ammo = maxAmmo
 dropweight = 1
 name = "shotgun"
+image_angle = irandom_range(1, 360)
