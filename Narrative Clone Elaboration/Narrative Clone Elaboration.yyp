@@ -26,6 +26,7 @@
     {"id":{"name":"spr_PlayerIdleUp","path":"sprites/spr_PlayerIdleUp/spr_PlayerIdleUp.yy",},"order":2,},
     {"id":{"name":"spr_UIHealth","path":"sprites/spr_UIHealth/spr_UIHealth.yy",},"order":1,},
     {"id":{"name":"obj_Revolver","path":"objects/obj_Revolver/obj_Revolver.yy",},"order":11,},
+    {"id":{"name":"spr_keyHighlight","path":"sprites/spr_keyHighlight/spr_keyHighlight.yy",},"order":57,},
     {"id":{"name":"spr_AcolyteRun","path":"sprites/spr_AcolyteRun/spr_AcolyteRun.yy",},"order":3,},
     {"id":{"name":"spr_screenflash","path":"sprites/spr_screenflash/spr_screenflash.yy",},"order":54,},
     {"id":{"name":"obj_upgradeExplode","path":"objects/obj_upgradeExplode/obj_upgradeExplode.yy",},"order":2,},
