@@ -4,9 +4,6 @@ function view_upgrade_menu(){
 	place1X = 341.5
 	place2X = 1024.5
 	placeY = 384
-	show_debug_message(place1X)
-	show_debug_message(place2X)
-	show_debug_message(placeY)
 	placeDepth = obj_monsterSpawner.depth - 1
 	upgrades = [instance_create_depth(0, 0 , placeDepth, obj_upgradeChain), instance_create_depth(0, 0, placeDepth, obj_upgradeDamage), instance_create_depth(0, 0, placeDepth, obj_upgradeProj)]
 	if(!obj_Player.upgradeExplode){
