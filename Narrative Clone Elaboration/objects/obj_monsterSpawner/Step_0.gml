@@ -1,8 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 if obj_GameController.cultistsSpawning = 2 and packSpawned = 0{
-	instance_create_depth(x, y, (depth - 1), obj_packspawner);
-	packSpawned = 1
+	
+	instance_create_depth(x, y, 1, obj_monsterSpawnerHitbox)
+	
+	if spawning = 1{
+		instance_create_depth(x, y, (depth - 1), obj_packspawner);
+		packSpawned = 1
+	}
+	else{
+		packSpawned = 1
+	}
 }
 else if obj_GameController.cultistsSpawning = 2 and obj_GameController.cultistsKilled > 10{
 	obj_GameController.cultistsSpawning = 0;
