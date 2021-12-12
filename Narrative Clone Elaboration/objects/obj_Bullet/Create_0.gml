@@ -19,7 +19,7 @@ if obj_Player.upgradeExtraBullets > 0 && obj_Player.equipped.name == "revolver" 
 	
 }
 
-if obj_Player.upgradeChains > 0 && obj_Player.equipped.name == "machine gun" {
+if obj_Player.upgradeChains > 1 && obj_Player.equipped.name == "machine gun" {
 	
 	sprite_index = spr_ChainBullet
 	
