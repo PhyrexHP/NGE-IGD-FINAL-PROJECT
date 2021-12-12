@@ -105,6 +105,7 @@
     {"id":{"name":"spr_SpaceshipCeiling","path":"sprites/spr_SpaceshipCeiling/spr_SpaceshipCeiling.yy",},"order":6,},
     {"id":{"name":"spr_UIAmmoBar","path":"sprites/spr_UIAmmoBar/spr_UIAmmoBar.yy",},"order":0,},
     {"id":{"name":"snd_backtrack","path":"sounds/snd_backtrack/snd_backtrack.yy",},"order":4,},
+    {"id":{"name":"rm_gameRoom","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -128,7 +129,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_gameStart","path":"rooms/rm_gameStart/rm_gameStart.yy",},},
-    {"roomId":{"name":"","path":"",},},
+    {"roomId":{"name":"rm_gameRoom","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},},
     {"roomId":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
   ],
   "Folders": [
@@ -165,7 +166,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Narrative Clone Elaboration",
