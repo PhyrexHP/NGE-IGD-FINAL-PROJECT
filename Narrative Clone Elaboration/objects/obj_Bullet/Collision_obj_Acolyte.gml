@@ -10,9 +10,7 @@ else {
 			other.sprite_index = spr_AcolyteDamaged;
 		}
 
-		show_debug_message(chainsLeft)
 		if chainsLeft > 0 {
-			show_debug_message("chains")
 			nearestAcolyte = instance_nearest(x, y, obj_Acolyte)
 			image_angle = point_direction(x, y, nearestAcolyte.x, nearestAcolyte.y);
 			direction = point_direction(x, y, nearestAcolyte.x, nearestAcolyte.y);
