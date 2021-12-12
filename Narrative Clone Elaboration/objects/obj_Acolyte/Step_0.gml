@@ -9,8 +9,12 @@ if healthPoints <= 0{
 				obj_GameController.cultistsKilled += 1;
 				pointAdded = 1;
 			}
+			
 		instance_destroy();
-		} else {
+		
+		} 
+		
+		else {
 			sprite_index = spr_AcolyteDead;
 			alive = 0;
 			speed = 0;

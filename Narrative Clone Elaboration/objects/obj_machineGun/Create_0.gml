@@ -8,3 +8,4 @@ bulletTimer = 0
 bulletsPerSecond = 10
 name = "machine gun"
 autofire = true
+image_angle = irandom_range(1, 360)
