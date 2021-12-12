@@ -18,9 +18,8 @@ else {
 		}
 
 		if chainsLeft = 0{
-		show_debug_message("this code is running")
+		
 			if sprite_index = spr_RevolverBullet{
-				show_debug_message("this is also running")
 				sprite_index = spr_BulletGreenCollide
 			}
 			
