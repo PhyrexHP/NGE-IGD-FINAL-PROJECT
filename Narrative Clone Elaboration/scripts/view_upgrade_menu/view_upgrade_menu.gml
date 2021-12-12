@@ -1,19 +1,22 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function view_upgrade_menu(){
-	place1X = obj_Player.cameraX + obj_Player.cameraWidth/4
-	place2X = obj_Player.cameraX + obj_Player.cameraWidth*3/4
-	placeY = obj_Player.cameraY + obj_Player.cameraHeight/2
+	place1X = 341.5
+	place2X = 1024.5
+	placeY = 384
+	show_debug_message(place1X)
+	show_debug_message(place2X)
+	show_debug_message(placeY)
 	placeDepth = obj_monsterSpawner.depth - 1
 	upgrades = [instance_create_depth(0, 0 , placeDepth, obj_upgradeChain), instance_create_depth(0, 0, placeDepth, obj_upgradeDamage), instance_create_depth(0, 0, placeDepth, obj_upgradeProj)]
 	if(!obj_Player.upgradeExplode){
-		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeExplode))
+		array_push(upgrades, instance_create_depth(-1000, -1000, placeDepth, obj_upgradeExplode))
 	}
 	if(!obj_Player.upgradeLight){
-		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeLight))
+		array_push(upgrades, instance_create_depth(-1000, -1000, placeDepth, obj_upgradeLight))
 	}
 	if (obj_Player.Health != obj_Player.maxHealth){
-		array_push(upgrades, instance_create_depth(0, 0, placeDepth, obj_upgradeHealth))
+		array_push(upgrades, instance_create_depth(-1000, -1000, placeDepth, obj_upgradeHealth))
 	}
 	
 	picker = irandom(array_length(upgrades) - 1)
@@ -23,6 +26,11 @@ function view_upgrade_menu(){
 	picker = irandom(array_length(upgrades) - 1)
 	upgrades[picker].x = place2X
 	upgrades[picker].y = placeY
+	array_delete(upgrades, picker, 1)
 	
-	array_delete(upgrades, 0, array_length(upgrades))
+	while(array_length(upgrades) > 0){
+		upgradesFirst = upgrades[0]
+		array_delete(upgrades, 0, 1)
+		instance_destroy(upgradesFirst)
+	}
 }
