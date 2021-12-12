@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_AcolyteIdle",
-    "path": "sprites/spr_AcolyteIdle/spr_AcolyteIdle.yy",
+    "name": "spr_acolyte_idle",
+    "path": "sprites/spr_acolyte_idle/spr_acolyte_idle.yy",
   },
   "solid": false,
   "visible": true,

@@ -29,7 +29,7 @@ if healthPoints <= 0{
 if sprite_index = spr_AcolyteDamaged{
 	damageTimer = damageTimer + 1;
 	if damageTimer % 10 = 0{
-		sprite_index = spr_AcolyteRun;
+		sprite_index = spr_acolyte_walking;
 	}
 }
 
@@ -38,14 +38,14 @@ if aggro = 0 and alive = 1{
 		if movementTimer % 60 = 0{
 			direction = random_range(1, 360);
 			speed = 2;
-			sprite_index = spr_AcolyteRun;
+			sprite_index = spr_acolyte_walking;
 		}
 		movementTimer += 1;
 		if movementTimer % 59 = 0{
 			idleTimer += 1;
 			movementTimer += 1;
 			speed = 0;
-			sprite_index = spr_AcolyteIdle;
+			sprite_index = spr_acolyte_idle;
 		}
 	}
 	else{

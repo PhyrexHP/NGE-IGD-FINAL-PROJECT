@@ -4,7 +4,7 @@ if obj_GameController.upgradeMenuOn = 0{
 		if (obj_Player.equipped.id == self.id) {
 	
 			x = (obj_Player.playerXpos);
-			y = (obj_Player.playerYpos) + 10;
+			y = (obj_Player.playerYpos)+10;
 	
 			if image_angle > 45 and image_angle < 145{
 				depth = obj_Player.depth + 1;
