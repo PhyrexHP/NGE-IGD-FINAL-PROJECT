@@ -21,20 +21,38 @@ currentFrame += 1;*/
 if keyboard_check_pressed(vk_space){
 	room_goto(rm_gameRoom)
 }
-
+show_debug_message(alpha)
 if(currentFrame < 60){
 	color = make_color_rgb(colorW, colorW, colorW);
 	draw_set_color(color);
 	draw_rectangle(0, 0, 1366, 768, false);
 	colorW -= 255/60;
 } else if(currentFrame < 120){
-	draw_set_alpha(alpha)
 	draw_set_color(c_white)
+	draw_set_alpha(alpha)
 	draw_text(room_width/2, 100, "You died")
-	alpha += 1/room_speed
 } else if(currentFrame < 180){
+	draw_set_alpha(alpha)
 	draw_text(room_width/2, 200, "Acolytes killed: " + string(global.enemies))
 } else if(currentFrame < 240){
+	draw_set_alpha(alpha)
+	draw_text(room_width/2, 300, "Rounds Survived: " + string(global.rounds))
+}
+
+alpha += 1/room_speed
+if(alpha == 1){
+	alpha = 0
+}
+
+
+if(currentFrame > 119){
+	draw_set_alpha(1)
+	draw_text(room_width/2, 100, "You died")
+}
+if(currentFrame > 179){
+	draw_text(room_width/2, 200, "Acolytes killed: " + string(global.enemies))
+}
+if(currentFrame > 239){
 	draw_text(room_width/2, 300, "Rounds Survived: " + string(global.rounds))
 }
 currentFrame++
