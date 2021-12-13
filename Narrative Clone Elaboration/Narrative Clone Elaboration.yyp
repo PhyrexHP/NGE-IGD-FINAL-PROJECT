@@ -13,7 +13,7 @@
     {"id":{"name":"spr_upgradeChain","path":"sprites/spr_upgradeChain/spr_upgradeChain.yy",},"order":1,},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"order":22,},
     {"id":{"name":"snd_menuStart","path":"sounds/snd_menuStart/snd_menuStart.yy",},"order":0,},
-    {"id":{"name":"spr_acolyte_dead","path":"sprites/spr_acolyte_dead/spr_acolyte_dead.yy",},"order":2,},
+    {"id":{"name":"spr_acolyte_damaged","path":"sprites/spr_acolyte_damaged/spr_acolyte_damaged.yy",},"order":2,},
     {"id":{"name":"spr_upgradeProj","path":"sprites/spr_upgradeProj/spr_upgradeProj.yy",},"order":7,},
     {"id":{"name":"spr_machineGunHighlight","path":"sprites/spr_machineGunHighlight/spr_machineGunHighlight.yy",},"order":10,},
     {"id":{"name":"spr_upgradeHealth","path":"sprites/spr_upgradeHealth/spr_upgradeHealth.yy",},"order":12,},

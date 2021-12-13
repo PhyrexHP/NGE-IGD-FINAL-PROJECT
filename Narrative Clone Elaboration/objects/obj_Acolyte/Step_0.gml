@@ -26,7 +26,7 @@ if healthPoints <= 0{
 	}
 }
 
-if sprite_index = spr_AcolyteDamaged{
+if sprite_index = spr_acolyte_damaged{
 	damageTimer = damageTimer + 1;
 	if damageTimer % 10 = 0{
 		sprite_index = spr_acolyte_walking;
@@ -69,7 +69,7 @@ if aggro = 1 and alive = 1{
 	}
 }
 
-if sprite_index = spr_AcolyteDamaged or obj_GameController.cultistsKilled >= 10{
+if sprite_index = spr_acolyte_damaged or obj_GameController.cultistsKilled >= 10{
 	aggro = 1;
 }
 
