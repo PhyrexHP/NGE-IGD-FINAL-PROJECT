@@ -1,0 +1,1 @@
+draw_sprite_ext(sprite_index, 0, obj_Player.x + xOffset, obj_Player.y + yOffset, scale, scale, 0, c_white, 1)
