@@ -2,4 +2,4 @@
 // You can write your code in this editor
 idleTimer = irandom_range(1, 100)
 mySpeed = mySpeed + random(0.5)
-healthPoints = healthPoints + (healthPoints * obj_GameController.currentWave * .2) - 2
+healthPoints = 6 + (10 * obj_GameController.currentWave * .4)

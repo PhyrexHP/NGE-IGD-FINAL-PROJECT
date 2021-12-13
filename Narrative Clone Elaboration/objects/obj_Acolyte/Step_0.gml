@@ -8,6 +8,7 @@ if healthPoints <= 0{
 			if pointAdded = 0{
 				obj_GameController.cultistsKilled += 1;
 				pointAdded = 1;
+				obj_GameController.cultistsKilledTotal += 1;
 			}
 			
 		instance_destroy();
@@ -21,6 +22,7 @@ if healthPoints <= 0{
 			if pointAdded = 0{
 				obj_GameController.cultistsKilled += 1;
 				pointAdded = 1;
+				obj_GameController.cultistsKilledTotal += 1;
 			}
 		}
 	}
