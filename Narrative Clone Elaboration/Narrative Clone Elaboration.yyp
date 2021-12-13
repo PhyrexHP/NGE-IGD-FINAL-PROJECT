@@ -64,6 +64,7 @@
     {"id":{"name":"fnt_Valken14","path":"fonts/fnt_Valken14/fnt_Valken14.yy",},"order":0,},
     {"id":{"name":"spr_PlayerWalk","path":"sprites/spr_PlayerWalk/spr_PlayerWalk.yy",},"order":2,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
+    {"id":{"name":"snd_ouch","path":"sounds/snd_ouch/snd_ouch.yy",},"order":11,},
     {"id":{"name":"spr_acolyte_walking","path":"sprites/spr_acolyte_walking/spr_acolyte_walking.yy",},"order":1,},
     {"id":{"name":"obj_shotgun","path":"objects/obj_shotgun/obj_shotgun.yy",},"order":28,},
     {"id":{"name":"spr_acolyte_damaged","path":"sprites/spr_acolyte_damaged/spr_acolyte_damaged.yy",},"order":2,},
