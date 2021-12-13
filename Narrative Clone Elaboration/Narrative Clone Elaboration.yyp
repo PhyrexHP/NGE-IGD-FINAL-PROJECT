@@ -96,6 +96,7 @@
     {"id":{"name":"spr_SpaceshipFloorGrateTR","path":"sprites/spr_SpaceshipFloorGrateTR/spr_SpaceshipFloorGrateTR.yy",},"order":9,},
     {"id":{"name":"spr_upgradeLight","path":"sprites/spr_upgradeLight/spr_upgradeLight.yy",},"order":13,},
     {"id":{"name":"spr_npcCollision","path":"sprites/spr_npcCollision/spr_npcCollision.yy",},"order":9,},
+    {"id":{"name":"spr_acolyte_dead","path":"sprites/spr_acolyte_dead/spr_acolyte_dead.yy",},"order":3,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":28,},
     {"id":{"name":"obj_machineGun","path":"objects/obj_machineGun/obj_machineGun.yy",},"order":27,},
     {"id":{"name":"spr_PlayerWalkUp","path":"sprites/spr_PlayerWalkUp/spr_PlayerWalkUp.yy",},"order":5,},
