@@ -1,0 +1,1 @@
+draw_sprite(sprite_index, 0, obj_Player.cameraWidth/2, obj_Player.cameraHeight/2)
