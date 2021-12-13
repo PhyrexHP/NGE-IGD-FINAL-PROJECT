@@ -74,6 +74,7 @@
     {"id":{"name":"spr_UIWeapon","path":"sprites/spr_UIWeapon/spr_UIWeapon.yy",},"order":4,},
     {"id":{"name":"spr_SpaceshipFloorGrateH","path":"sprites/spr_SpaceshipFloorGrateH/spr_SpaceshipFloorGrateH.yy",},"order":7,},
     {"id":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},"order":2,},
+    {"id":{"name":"snd_heartbeat","path":"sounds/snd_heartbeat/snd_heartbeat.yy",},"order":6,},
     {"id":{"name":"obj_Collidable","path":"objects/obj_Collidable/obj_Collidable.yy",},"order":1,},
     {"id":{"name":"spr_SpaceshipFloorGrateV","path":"sprites/spr_SpaceshipFloorGrateV/spr_SpaceshipFloorGrateV.yy",},"order":8,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":10,},

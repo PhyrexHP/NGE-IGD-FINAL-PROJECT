@@ -30,31 +30,33 @@ if(currentFrame < 60){
 } else if(currentFrame < 120){
 	draw_set_color(c_white)
 	draw_set_alpha(alpha)
-	draw_text(room_width/2, 100, "You died")
+	draw_text(room_width/2, 125, "You died")
 } else if(currentFrame < 180){
 	draw_set_alpha(alpha)
-	draw_text(room_width/2, 200, "Acolytes killed: " + string(global.enemies))
+	draw_text(room_width/2, 225, "Acolytes killed: " + string(global.enemies))
 } else if(currentFrame < 240){
 	draw_set_alpha(alpha)
-	draw_text(room_width/2, 300, "Rounds Survived: " + string(global.rounds))
+	draw_text(room_width/2, 325, "Rounds Survived: " + string(global.rounds))
 } else {
-	instance_create_depth(room_width/2, 600, 0, obj_restartButton)
+	instance_create_depth(room_width/2, 625, 0, obj_restartButton)
 }
 
 alpha += 1/room_speed
 if(alpha == 1){
 	alpha = 0
+	instance_create_depth(0, 0, 0, obj_screenflash)
+	audio_play_sound(snd_heartbeat, 1, 0)
 }
 
 
 if(currentFrame > 119){
 	draw_set_alpha(1)
-	draw_text(room_width/2, 100, "You died")
+	draw_text(room_width/2, 125, "You died")
 }
 if(currentFrame > 179){
-	draw_text(room_width/2, 200, "Acolytes killed: " + string(global.enemies))
+	draw_text(room_width/2, 225, "Acolytes killed: " + string(global.enemies))
 }
 if(currentFrame > 239){
-	draw_text(room_width/2, 300, "Rounds Survived: " + string(global.rounds))
+	draw_text(room_width/2, 325, "Rounds Survived: " + string(global.rounds))
 }
 currentFrame++
