@@ -24,12 +24,12 @@
   "gridX": 2,
   "gridY": 2,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},"LayerId":{"name":"719732ed-c4c2-485b-9699-058a69befcbb","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SpaceshipFloorGrateTB","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},"resourceVersion":"1.0","name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},"LayerId":{"name":"719732ed-c4c2-485b-9699-058a69befcbb","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SpaceshipFloorGrateC1","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},"resourceVersion":"1.0","name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SpaceshipFloorGrateTB","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},
+    "spriteId": {"name":"spr_SpaceshipFloorGrateC1","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9bdfdfcd-1259-40fb-b8bf-83f3043a803c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4d1e667a-85a4-4cc2-aac1-fc8ed6808b5b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"298acd98-2ac3-42a2-8a21-cb3988e0b057","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SpaceshipFloorGrateTB","path":"sprites/spr_SpaceshipFloorGrateTB/spr_SpaceshipFloorGrateTB.yy",},
+    "parent": {"name":"spr_SpaceshipFloorGrateC1","path":"sprites/spr_SpaceshipFloorGrateC1/spr_SpaceshipFloorGrateC1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_SpaceshipFloorGrateTB",
+    "name": "spr_SpaceshipFloorGrateC1",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/walls and tiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_SpaceshipFloorGrateTB",
+  "name": "spr_SpaceshipFloorGrateC1",
   "tags": [],
   "resourceType": "GMSprite",
 }

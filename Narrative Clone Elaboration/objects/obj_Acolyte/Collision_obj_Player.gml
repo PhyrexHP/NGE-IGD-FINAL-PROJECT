@@ -7,5 +7,7 @@ if (sprite_index != spr_acolyte_dead && obj_Player.iframes == 0) {
 	instance_create_depth(0,0,0,obj_screenflash)
 }
 if (obj_Player.Health <= 0) {
+	global.enemies = obj_GameController.cultistsKilledTotal
+	global.rounds = obj_GameController.currentWave
 	room_goto(rm_dead)
 }
