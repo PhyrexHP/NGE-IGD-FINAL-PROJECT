@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 462,
-  "bbox_top": 0,
-  "bbox_bottom": 462,
+  "bbox_left": 44,
+  "bbox_right": 305,
+  "bbox_top": 63,
+  "bbox_bottom": 282,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 463,
-  "height": 463,
+  "width": 350,
+  "height": 350,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"839b8dc6-1474-46ca-a833-b06e9de5f000","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"839b8dc6-1474-46ca-a833-b06e9de5f000","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"LayerId":{"name":"3ad75f6a-e321-403c-9ac6-0b592bb1c660","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_upgradeDamage","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"resourceVersion":"1.0","name":"839b8dc6-1474-46ca-a833-b06e9de5f000","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5eb626f4-ce26-4c9e-8ca5-8743ea4d44a5","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5eb626f4-ce26-4c9e-8ca5-8743ea4d44a5","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"LayerId":{"name":"4afc679b-784f-4943-890a-b9d15e7dc64f","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_upgradeDamage","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"resourceVersion":"1.0","name":"5eb626f4-ce26-4c9e-8ca5-8743ea4d44a5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_upgradeDamage","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c19ddc44-7e88-4f6f-b19e-9d43a659863f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"839b8dc6-1474-46ca-a833-b06e9de5f000","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"78a7cbe1-545c-4341-b74f-3324ab9ffd28","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5eb626f4-ce26-4c9e-8ca5-8743ea4d44a5","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 231,
-    "yorigin": 231,
+    "xorigin": 175,
+    "yorigin": 175,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_upgradeDamage","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ad75f6a-e321-403c-9ac6-0b592bb1c660","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4afc679b-784f-4943-890a-b9d15e7dc64f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
