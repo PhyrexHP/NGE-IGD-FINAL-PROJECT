@@ -1,6 +1,6 @@
 /// @description Acolyte step event
 if healthPoints <= 0{
-	if (sprite_index != spr_AcolyteDead){
+	if (sprite_index != spr_acolyte_dead){
 		dropWeapon()
 		
 		if (obj_Player.upgradeExplode = true && obj_Player.equipped.name = "shotgun"){
@@ -15,7 +15,7 @@ if healthPoints <= 0{
 		} 
 		
 		else {
-			sprite_index = spr_AcolyteDead;
+			sprite_index = spr_acolyte_dead;
 			alive = 0;
 			speed = 0;
 			if pointAdded = 0{
