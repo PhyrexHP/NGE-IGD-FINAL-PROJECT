@@ -48,6 +48,7 @@
     {"id":{"name":"spr_BulletYellowCollide","path":"sprites/spr_BulletYellowCollide/spr_BulletYellowCollide.yy",},"order":9,},
     {"id":{"name":"spr_upgradeOutlineHighlight","path":"sprites/spr_upgradeOutlineHighlight/spr_upgradeOutlineHighlight.yy",},"order":11,},
     {"id":{"name":"spr_PlayerWalkHor","path":"sprites/spr_PlayerWalkHor/spr_PlayerWalkHor.yy",},"order":4,},
+    {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},"order":60,},
     {"id":{"name":"obj_screenflash","path":"objects/obj_screenflash/obj_screenflash.yy",},"order":34,},
     {"id":{"name":"spr_SpaceshipFloorGrateTD","path":"sprites/spr_SpaceshipFloorGrateTD/spr_SpaceshipFloorGrateTD.yy",},"order":14,},
     {"id":{"name":"snd_cultistGrowl","path":"sounds/snd_cultistGrowl/snd_cultistGrowl.yy",},"order":3,},
@@ -118,6 +119,7 @@
     {"id":{"name":"spr_SpaceshipFloorGrateC2","path":"sprites/spr_SpaceshipFloorGrateC2/spr_SpaceshipFloorGrateC2.yy",},"order":10,},
     {"id":{"name":"spr_UIAmmoBar","path":"sprites/spr_UIAmmoBar/spr_UIAmmoBar.yy",},"order":0,},
     {"id":{"name":"snd_backtrack","path":"sounds/snd_backtrack/snd_backtrack.yy",},"order":4,},
+    {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"order":42,},
     {"id":{"name":"rm_gameRoom","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},"order":0,},
   ],
   "Options": [
@@ -180,7 +182,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Narrative Clone Elaboration",
