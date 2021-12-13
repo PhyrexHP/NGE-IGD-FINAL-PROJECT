@@ -7,9 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
+<<<<<<< HEAD:Narrative Clone Elaboration/sprites/spr_acolyte_damaged/spr_acolyte_damaged.yy
   "bbox_left": 11,
   "bbox_right": 56,
   "bbox_top": 3,
+=======
+  "bbox_left": 8,
+  "bbox_right": 53,
+  "bbox_top": 2,
+>>>>>>> f1920fbf943ce26ed064e03d1c08c34f9cedd633:Narrative Clone Elaboration/sprites/spr_acolyte_dead/spr_acolyte_dead.yy
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
