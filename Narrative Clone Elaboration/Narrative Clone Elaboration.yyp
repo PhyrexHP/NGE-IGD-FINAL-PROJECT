@@ -3,6 +3,7 @@
     {"id":{"name":"spr_upgradeBackground","path":"sprites/spr_upgradeBackground/spr_upgradeBackground.yy",},"order":9,},
     {"id":{"name":"spr_upgradeDamage","path":"sprites/spr_upgradeDamage/spr_upgradeDamage.yy",},"order":3,},
     {"id":{"name":"spr_SpaceshipFloorGrateTU","path":"sprites/spr_SpaceshipFloorGrateTU/spr_SpaceshipFloorGrateTU.yy",},"order":11,},
+    {"id":{"name":"rm_gameRoomRespawn","path":"rooms/rm_gameRoomRespawn/rm_gameRoomRespawn.yy",},"order":3,},
     {"id":{"name":"spr_shotgunHighlight","path":"sprites/spr_shotgunHighlight/spr_shotgunHighlight.yy",},"order":11,},
     {"id":{"name":"obj_upgradeHealth","path":"objects/obj_upgradeHealth/obj_upgradeHealth.yy",},"order":5,},
     {"id":{"name":"spr_monsterSpawnerHitbox","path":"sprites/spr_monsterSpawnerHitbox/spr_monsterSpawnerHitbox.yy",},"order":56,},
@@ -147,6 +148,7 @@
     {"roomId":{"name":"rm_gameStart","path":"rooms/rm_gameStart/rm_gameStart.yy",},},
     {"roomId":{"name":"rm_gameRoom","path":"rooms/rm_gameRoom/rm_gameRoom.yy",},},
     {"roomId":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
+    {"roomId":{"name":"rm_gameRoomRespawn","path":"rooms/rm_gameRoomRespawn/rm_gameRoomRespawn.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
