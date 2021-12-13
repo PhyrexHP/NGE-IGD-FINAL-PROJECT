@@ -1,1 +1,1 @@
-timer = room_speed
+timer = room_speed * numSeconds

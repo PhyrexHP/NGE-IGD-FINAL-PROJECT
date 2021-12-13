@@ -1,1 +1,1 @@
-draw_sprite(sprite_index, 0, obj_Player.cameraWidth/2, obj_Player.cameraHeight/2)
+draw_sprite_ext(sprite_index, 0, 683, 384, scale, scale, 0, c_white, 1)
