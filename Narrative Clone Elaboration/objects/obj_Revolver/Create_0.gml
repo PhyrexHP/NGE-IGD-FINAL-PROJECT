@@ -7,3 +7,4 @@ bulletsPerSecond = 6
 dropweight = 1
 ammo = -1
 name = "revolver"
+shotsound = snd_loudCrunch

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.66,
+  "volume": 0.51,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_menuStart.mp3",
-  "duration": 1.436735,
+  "soundFile": "snd_keyspawn.mp3",
+  "duration": 1.8,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_menuStart",
+  "name": "snd_keyspawn",
   "tags": [],
   "resourceType": "GMSound",
 }

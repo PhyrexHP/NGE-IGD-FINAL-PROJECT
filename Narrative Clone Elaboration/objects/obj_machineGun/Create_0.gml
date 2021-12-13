@@ -9,3 +9,4 @@ bulletsPerSecond = 10
 name = "machine gun"
 autofire = true
 image_angle = irandom_range(1, 360)
+shotsound = snd_machinegun

@@ -31,7 +31,7 @@ if obj_GameController.upgradeMenuOn = 0{
 function fire(){
 	if(bulletTimer <= 0){
 		shots = projectiles
-		audio_play_sound(snd_loudCrunch, 2, false);
+		audio_play_sound(shotsound, 2, false);
 		shots = projectiles + obj_Player.upgradeExtraBullets
 		for (i = 0 ; i < shots; i += 1){
 			bullet = instance_create_depth((x), (y-10), -100, obj_Bullet);
