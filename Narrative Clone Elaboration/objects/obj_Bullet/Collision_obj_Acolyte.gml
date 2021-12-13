@@ -6,11 +6,8 @@ else {
 	if (other.sprite_index = spr_acolyte_idle or other.sprite_index = spr_acolyte_damaged or other.sprite_index = spr_acolyte_walking) and other.bulletHit = 0{
 	
 		if sprite_index = spr_RevolverBullet || sprite_index = spr_ExplodeBullet || sprite_index = spr_ChainBullet || sprite_index = spr_ExtraBullet {
-<<<<<<< HEAD
 			other.healthPoints = other.healthPoints - (obj_Player.equipped.damage + obj_Player.upgradeDamageUp);
-=======
 			other.healthPoints = other.healthPoints - (obj_Player.equipped.damage + (obj_Player.equipped.damage * .5 * obj_Player.upgradeDamageUp));
->>>>>>> f1920fbf943ce26ed064e03d1c08c34f9cedd633
 			other.sprite_index = spr_acolyte_damaged;
 		}
 
