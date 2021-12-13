@@ -1,1 +1,1 @@
-room_goto(rm_gameRoom)
+room_goto(rm_gameRoomRespawn)
