@@ -21,7 +21,7 @@ currentFrame += 1;*/
 if keyboard_check_pressed(vk_space){
 	room_goto(rm_gameRoom)
 }
-show_debug_message(alpha)
+
 if(currentFrame < 60){
 	color = make_color_rgb(colorW, colorW, colorW);
 	draw_set_color(color);
@@ -37,6 +37,8 @@ if(currentFrame < 60){
 } else if(currentFrame < 240){
 	draw_set_alpha(alpha)
 	draw_text(room_width/2, 300, "Rounds Survived: " + string(global.rounds))
+} else {
+	instance_create_depth(room_width/2, 400, 0, obj_restartButton)
 }
 
 alpha += 1/room_speed
