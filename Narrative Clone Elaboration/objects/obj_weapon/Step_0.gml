@@ -28,6 +28,10 @@ if obj_GameController.upgradeMenuOn = 0{
 	}
 }
 
+if (obj_GameController.cultistsSpawning = 1 && obj_Player.equipped.id != id){
+	instance_destroy();
+}
+
 function fire(){
 	if(bulletTimer <= 0){
 		shots = projectiles
