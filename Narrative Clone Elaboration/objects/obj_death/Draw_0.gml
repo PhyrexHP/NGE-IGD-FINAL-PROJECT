@@ -38,7 +38,7 @@ if(currentFrame < 60){
 	draw_set_alpha(alpha)
 	draw_text(room_width/2, 300, "Rounds Survived: " + string(global.rounds))
 } else {
-	instance_create_depth(room_width/2, 400, 0, obj_restartButton)
+	instance_create_depth(room_width/2, 600, 0, obj_restartButton)
 }
 
 alpha += 1/room_speed
